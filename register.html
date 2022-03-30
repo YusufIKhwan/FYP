@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozelens Store</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Create New Account</h1>
+        <hr>
+    </div>
+
+    <form action="login_page.php">
+        <div class="container">
+            <label for="nama"><b>Full Name :</b></label>
+            <input type="text" name="nama" id="nama" placeholder="Full Name" required>
+
+            <br><br>
+
+            <p><label for="jantina"><b>Gender :</b></label>
+                <input type="radio" name="jantina" id="jantina" value="Lelaki">Lelaki
+                <input type="radio" name="jantina" id="jantina" value="Perempuan">Perempuan
+            </p>
+
+            <br><br>
+
+            <label for="umur"><b>Age :</b></label>
+            <input type="text" name="age" id="age" placeholder="Age" required>
+
+            <br><br><br>
+
+            <label for="notel"><b>Phone No. :</b></label>
+            <input type="text" name="notel" id="notel" placeholder="Phone No." required>
+
+            <br><br><br>
+
+            <label for="email"><b>E-mail Address :</b></label>
+            <input type="text" name="email" id="email" placeholder="E-mail Address" required>
+
+            <br><br><br>
+
+            <label for="alamat"><b>Address :</b></label>
+            <input type="text" name="alamat" id="alamat" required>
+
+            <label for="poskod"></label>
+            <input type="text" name="poskod" id="poskod" placeholder="Postcode" required>
+
+            <label for="bandar"></label>
+            <input type="text" name="bandar" id="bandar" placeholder="City" required>
+
+            <br><br><br>
+
+            <label for="negeri"><b>State :</b></label>
+            <select name="negeri" id="negeri">
+                <option value="Perlis">Perlis</option>
+                <option value="Perlis">Kedah</option>
+                <option value="Perlis">Pulau Pinang</option>
+                <option value="Perlis">Perak</option>
+                <option value="Perlis">Pahang</option>
+                <option value="Perlis">Kelantan</option>
+                <option value="Perlis">Terengganu</option>
+                <option value="Perlis">Selangor</option>
+                <option value="Perlis">Negeri Sembilan</option>
+                <option value="Perlis">Melaka</option>
+                <option value="Perlis">Johor</option>
+                <option value="Perlis">Sabah</option>
+                <option value="Perlis">Sarawak</option>
+            </select>
+
+            <br><br><br>
+
+            <label for="username"><b>Username :</b></label>
+            <input type="text" name="username" id="username" required>
+
+            <br><br><br>
+
+            <label for="password"><b>Password :</b></label>
+            <input type="text" name="password" id="password" placeholder="Password" required>
+
+            <br><br><br>
+
+            <label for="cpassword"><b>Confirm Password :</b></label>
+            <input type="text" name="cpassword" id="cpassword" placeholder="Confirm Password" required>
+
+            <br><br><br>
+
+            <p>
+                <hr>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            </p>
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </div>
+
+    </form>
+</body>
+</html>
