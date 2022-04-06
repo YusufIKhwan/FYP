@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rozelens Store</title>
-    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <div class="title">
+     <!-- <div class="title">
         <h1>Sign Mebmbership</h1>
         <hr>
     </div>
 
-    <form action="login_page.php">
+     <form action="login_page.php">
         <div class="container">
             <label for="nama"><b>Full Name :</b></label>
             <input type="text" name="nama" id="nama" placeholder="Full Name" required>
@@ -45,12 +45,6 @@
 
             <label for="alamat"><b>Address :</b></label>
             <input type="text" name="alamat" id="alamat" required>
-
-            <label for="poskod"></label>
-            <input type="text" name="poskod" id="poskod" placeholder="Postcode" required>
-
-            <label for="bandar"></label>
-            <input type="text" name="bandar" id="bandar" placeholder="City" required>
 
             <br><br><br>
 
@@ -97,6 +91,40 @@
             <button type="reset">RESET</button>
         </div>
 
-    </form>
+    </form> -->
+
+    <form action="action_page.php">
+        <div class="container">
+          <h1>Register</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          
+          <label for="nama"><b>Full Name :</b></label>
+          <input type="text" name="nama" id="nama" placeholder="Full Name" required>
+          
+          <label for="jantina"><b>Gender :</b></label>
+          <input type="radio" name="jantina" id="jantina" value="Lelaki">Lelaki
+          <input type="radio" name="jantina" id="jantina" value="Perempuan">Perempuan
+
+          
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
 </body>
 </html>
